@@ -30,7 +30,7 @@ class MainTabBarViewController: UITabBarController {
         vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
         vc4.title = "Downloads"
         
-
+        tabBar.tintColor = .label
         
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)
         
