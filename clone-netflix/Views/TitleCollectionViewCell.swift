@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class TitleCollectionViewCell: UICollectionViewCell {
     
@@ -32,5 +33,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
         posterImageView.frame = contentView.bounds
     }
     
-    
+    public func configure(with model: String) {
+        
+    }
 }
