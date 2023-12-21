@@ -25,7 +25,13 @@ class APICaller {
                 return
             }
             
-            
+            do {
+                let results = try JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
+                print(results)
+                
+            } catch {
+                print(error.localizedDescription)
+            }
         }
     }
 }
