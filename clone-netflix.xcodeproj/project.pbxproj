@@ -21,6 +21,7 @@
 		0B3539922B3464C100EAA786 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539912B3464C100EAA786 /* APICaller.swift */; };
 		0B3539942B346B1300EAA786 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539932B346B1300EAA786 /* TitleModel.swift */; };
 		0B3539962B346F9E00EAA786 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539952B346F9E00EAA786 /* Extensions.swift */; };
+		0B35399A2B34BA6000EAA786 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539992B34BA6000EAA786 /* TitleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0B3539912B3464C100EAA786 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		0B3539932B346B1300EAA786 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
 		0B3539952B346F9E00EAA786 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0B3539992B34BA6000EAA786 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				0B35398D2B320B7200EAA786 /* CollectionViewTableViewCell.swift */,
 				0B35398F2B33144C00EAA786 /* HeroHeaderUIView.swift */,
+				0B3539992B34BA6000EAA786 /* TitleCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3539852B31DA8100EAA786 /* SearchViewController.swift in Sources */,
+				0B35399A2B34BA6000EAA786 /* TitleCollectionViewCell.swift in Sources */,
 				0B3539702B31D65F00EAA786 /* MainTabBarViewController.swift in Sources */,
 				0B35398E2B320B7200EAA786 /* CollectionViewTableViewCell.swift in Sources */,
 				0B3539922B3464C100EAA786 /* APICaller.swift in Sources */,
