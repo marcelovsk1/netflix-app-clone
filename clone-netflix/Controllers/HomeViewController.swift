@@ -60,14 +60,16 @@ class HomeViewController: UIViewController {
 //        }
 //            
 //        }
-        APICaller.shared.getTrendingMovies { results in
-            //
-            APICaller.shared.getUpcomingMovies { _ in
-                
+//        APICaller.shared.getTrendingMovies { results in
+//            //
+//            APICaller.shared.getUpcomingMovies { _ in
+//                
+//            }
+            APICaller.shared.getPopular { _ in
+                //
             }
         }
     }
-}
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
