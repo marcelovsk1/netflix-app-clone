@@ -33,5 +33,7 @@ class APICaller {
                 print(error.localizedDescription)
             }
         }
+        
+        task.resume()
     }
 }
