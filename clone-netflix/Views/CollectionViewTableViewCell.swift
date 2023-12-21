@@ -39,6 +39,10 @@ class CollectionViewTableViewCell: UITableViewCell {
         super.layoutSubviews()
         collectionView.frame = contentView.bounds
     }
+    
+    public func configure(with titles: [Title]) {
+        self.titles = titles
+    }
 }
 
 extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
