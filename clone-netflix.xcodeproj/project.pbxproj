@@ -21,6 +21,7 @@
 		0B3539922B3464C100EAA786 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539912B3464C100EAA786 /* APICaller.swift */; };
 		0B3539942B346B1300EAA786 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539932B346B1300EAA786 /* MoviesModel.swift */; };
 		0B3539962B346F9E00EAA786 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539952B346F9E00EAA786 /* Extensions.swift */; };
+		0B3539982B34757800EAA786 /* TvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539972B34757800EAA786 /* TvModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0B3539912B3464C100EAA786 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		0B3539932B346B1300EAA786 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
 		0B3539952B346F9E00EAA786 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0B3539972B34757800EAA786 /* TvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0B3539932B346B1300EAA786 /* MoviesModel.swift */,
+				0B3539972B34757800EAA786 /* TvModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				0B3539962B346F9E00EAA786 /* Extensions.swift in Sources */,
 				0B35396E2B31D65F00EAA786 /* SceneDelegate.swift in Sources */,
 				0B3539942B346B1300EAA786 /* MoviesModel.swift in Sources */,
+				0B3539982B34757800EAA786 /* TvModel.swift in Sources */,
 				0B3539832B31DA5D00EAA786 /* UpcomingViewController.swift in Sources */,
 				0B3539812B31D95000EAA786 /* HomeViewController.swift in Sources */,
 			);
