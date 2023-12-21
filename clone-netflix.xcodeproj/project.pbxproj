@@ -19,9 +19,8 @@
 		0B35398E2B320B7200EAA786 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35398D2B320B7200EAA786 /* CollectionViewTableViewCell.swift */; };
 		0B3539902B33144C00EAA786 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35398F2B33144C00EAA786 /* HeroHeaderUIView.swift */; };
 		0B3539922B3464C100EAA786 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539912B3464C100EAA786 /* APICaller.swift */; };
-		0B3539942B346B1300EAA786 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539932B346B1300EAA786 /* MoviesModel.swift */; };
+		0B3539942B346B1300EAA786 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539932B346B1300EAA786 /* TitleModel.swift */; };
 		0B3539962B346F9E00EAA786 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539952B346F9E00EAA786 /* Extensions.swift */; };
-		0B3539982B34757800EAA786 /* TvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3539972B34757800EAA786 /* TvModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +38,8 @@
 		0B35398D2B320B7200EAA786 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		0B35398F2B33144C00EAA786 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		0B3539912B3464C100EAA786 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
-		0B3539932B346B1300EAA786 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		0B3539932B346B1300EAA786 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
 		0B3539952B346F9E00EAA786 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		0B3539972B34757800EAA786 /* TvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +118,7 @@
 		0B35398A2B320B1F00EAA786 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0B3539932B346B1300EAA786 /* MoviesModel.swift */,
-				0B3539972B34757800EAA786 /* TvModel.swift */,
+				0B3539932B346B1300EAA786 /* TitleModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,8 +218,7 @@
 				0B3539872B31DAB300EAA786 /* DownloadViewController.swift in Sources */,
 				0B3539962B346F9E00EAA786 /* Extensions.swift in Sources */,
 				0B35396E2B31D65F00EAA786 /* SceneDelegate.swift in Sources */,
-				0B3539942B346B1300EAA786 /* MoviesModel.swift in Sources */,
-				0B3539982B34757800EAA786 /* TvModel.swift in Sources */,
+				0B3539942B346B1300EAA786 /* TitleModel.swift in Sources */,
 				0B3539832B31DA5D00EAA786 /* UpcomingViewController.swift in Sources */,
 				0B3539812B31D95000EAA786 /* HomeViewController.swift in Sources */,
 			);
