@@ -33,7 +33,7 @@ class APICaller {
                 let results = try JSONDecoder().decode(TrendingMoviesResponse.self, from: data)
                 completion(.success(results.results))
             } catch {
-                print(error.localizedDescription)
+                completion(.failure(error))
             }
         }
         
