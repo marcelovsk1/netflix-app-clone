@@ -9,6 +9,13 @@ import UIKit
 
 class UpcomingViewController: UIViewController {
 
+    private let upcomingTable: UITableView = {
+        
+        let table = UITableView()
+        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return table
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
