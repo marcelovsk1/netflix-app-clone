@@ -133,9 +133,9 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                 }
             }
             
-//        default:
-//            <#code#>
-//        }
+        default:
+            return UITableViewCell()
+        }
         
         return cell
     }
