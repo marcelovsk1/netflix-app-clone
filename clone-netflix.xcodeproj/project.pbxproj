@@ -81,7 +81,6 @@
 				0B35398C2B320B4700EAA786 /* Managers */,
 				0B35398B2B320B3D00EAA786 /* Resources */,
 				0B35398A2B320B1F00EAA786 /* Models */,
-				0B3539892B320B1600EAA786 /* ViewModels */,
 				0B3539882B320B0500EAA786 /* Views */,
 				0B35397F2B31D93D00EAA786 /* Controllers */,
 				0B35396B2B31D65F00EAA786 /* AppDelegate.swift */,
@@ -113,13 +112,6 @@
 				0B3539992B34BA6000EAA786 /* TitleCollectionViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		0B3539892B320B1600EAA786 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		0B35398A2B320B1F00EAA786 /* Models */ = {
