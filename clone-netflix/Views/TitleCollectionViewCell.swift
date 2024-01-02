@@ -35,7 +35,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
     
     public func configure(with model: String) {
         
-        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model)") else {
+        guard let url = URL(string: "https://api.themoviedb.org/3/collection/collection_id/images\(model)") else {
             return
         }
     
