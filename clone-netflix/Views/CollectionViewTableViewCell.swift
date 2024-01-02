@@ -54,7 +54,7 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionVie
             return UICollectionViewCell()
         }
         
-        cell.configure(with: "")
+        cell.configure(with: titles[indexPath.row].poster_path)
         
         return cell
     }
